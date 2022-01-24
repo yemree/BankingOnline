@@ -1,0 +1,83 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="MongoDB.Bson" Version="2.14.1" />
+    <PackageReference Include="MongoDB.Driver" Version="2.14.1" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.14.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstranctions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\emre.gokmen\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\osx\native\libsnappy64.dylib" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\emre.gokmen\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\osx\native\libsnappy64.dylib" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\emre.gokmen\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\linux\native\libsnappy64.so" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\emre.gokmen\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\linux\native\libsnappy64.so" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\emre.gokmen\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\win\native\libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\emre.gokmen\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\win\native\libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\emre.gokmen\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\osx\native\libzstd.dylib" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\emre.gokmen\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\osx\native\libzstd.dylib" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\emre.gokmen\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\linux\native\libzstd.so" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\emre.gokmen\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\linux\native\libzstd.so" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\emre.gokmen\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\win\native\snappy32.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\emre.gokmen\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\win\native\snappy32.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\emre.gokmen\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\win\native\snappy64.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\emre.gokmen\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\win\native\snappy64.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\emre.gokmen\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\osx\native\libsnappy64.dylib" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\emre.gokmen\.nuget\packages\mongodb.driver.core\2.14.1\build\..\runtimes\osx\native\libsnappy64.dylib" />
+  </ItemGroup>
+
+</Project>
